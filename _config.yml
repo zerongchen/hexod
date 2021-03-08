@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Roy's Note
 subtitle:
 description:
 keywords:
-author: ChenZeRong
-language:
+author: 陈泽荣
+language: zh-Hans
 timezone:
 
 # URL
@@ -34,14 +34,14 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
+render_drafts: true
+post_asset_folder: true
+relative_link: true
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
